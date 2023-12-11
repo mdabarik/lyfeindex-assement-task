@@ -1,0 +1,13 @@
+@keyframes bounce-left-right {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+  }
+  
+  .animate-left-right {
+    animation: bounce-left-right 4s infinite;
+  }
+  
