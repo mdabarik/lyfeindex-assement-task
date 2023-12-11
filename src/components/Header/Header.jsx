@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
     return (
-        <div className="w-full border-2 flex flex-col items-center justify-center py-4">
+        <div className="w-full flex flex-col items-center justify-center py-4">
             <div className="flex items-center">
                 <div className="block md:hidden">
                     <img className="w-[100px] h-[100px] object-cover" src="https://lyfeindex.com/wp-content/themes/main_website/circle-logo.png" alt="logo" />

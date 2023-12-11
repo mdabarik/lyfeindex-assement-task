@@ -1,3 +1,6 @@
+import Body from "../components/Body/Body";
+import FloatingCard from "../components/FloatingCard/FloatingCard";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
 const Home = () => {
@@ -8,7 +11,13 @@ const Home = () => {
             </div>
             <div className="relative">
                 <Header></Header>
+                <div className="py-14 flex flex-col items-center justify-center">
+                    <Body></Body>
+                    <FloatingCard></FloatingCard>
+                </div>
+                <Footer></Footer>
             </div>
+            
         </div>
     );
 };
